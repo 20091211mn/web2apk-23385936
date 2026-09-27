@@ -1,0 +1,66 @@
+{
+  "id": "/",
+  "name": "محمّل الوسائط — تنزيل مباشر",
+  "short_name": "محمّل الوسائط",
+  "description": "حمّل فيديوهات وصور من تطبيقات ومنصات متعددة مباشرة، اختر الجودة ونزّل كل ملف لوحده.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["utilities", "productivity", "multimedia"],
+  "iarc_rating_id": "",
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "handle_links": "preferred",
+  "edge_side_panel": {
+    "preferred_width": 480
+  },
+  "icons": [
+    { "src": "/icon-48.png",   "sizes": "48x48",     "type": "image/png", "purpose": "any" },
+    { "src": "/icon-72.png",   "sizes": "72x72",     "type": "image/png", "purpose": "any" },
+    { "src": "/icon-96.png",   "sizes": "96x96",     "type": "image/png", "purpose": "any" },
+    { "src": "/icon-144.png",  "sizes": "144x144",   "type": "image/png", "purpose": "any" },
+    { "src": "/icon-192.png",  "sizes": "192x192",   "type": "image/png", "purpose": "any" },
+    { "src": "/icon-256.png",  "sizes": "256x256",   "type": "image/png", "purpose": "any" },
+    { "src": "/icon-384.png",  "sizes": "384x384",   "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png",  "sizes": "512x512",   "type": "image/png", "purpose": "any" },
+    { "src": "/icon-1024.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/apple-touch-icon.png",  "sizes": "180x180", "type": "image/png", "purpose": "any" }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "محمّل الوسائط على سطح المكتب"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "محمّل الوسائط على الجوال"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "تحميل جديد",
+      "short_name": "تحميل",
+      "description": "ابدأ تحميل وسائط جديد",
+      "url": "/",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [],
+  "protocol_handlers": []
+}
